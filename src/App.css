@@ -1,0 +1,181 @@
+/* Navbarr CSS*/
+.brand{
+    color: red;
+    font-weight: bold;
+}
+.home{
+    font-weight: bold;
+    color: white;
+}
+.btn{
+    color:white;
+    font-weight: bold;
+}
+.body{
+    display: flex;
+}
+/* CSS Accueuil*/
+h1{
+    color:'rgb: 33,357,41';
+    font-size: 4.5em;
+    font-style: normal;
+    line-height: 1.1em;
+    font-weight: 900;
+    letter-spacing: -0.02em;
+    font-family: "plex-circular-black";
+    position: absolute;
+    margin-right: 100px;
+    margin-left: 60px;
+    margin-top: 50px;
+    box-shadow: 20px 20px 10px grey;
+ }
+ h2{
+    color:'rgb: 33,37,41';
+    font-style: normal;
+    letter-spacing: -0.02em;
+    font-family: "plex-circular-black";
+    font-weight: bolder;
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 250px;
+    box-shadow: 20px 20px 10px grey;
+ }
+  h4{
+    color:'rgb: 33,37,41';
+    font-style: normal;
+    letter-spacing: -0.02em;
+    font-family: "plex-circular-black";
+    font-weight: bolder;
+    position: absolute;
+    margin-top: 300px;
+    margin-left:300px;
+
+ }
+ .acceuil img {
+    opacity: 0.7;
+    position: relative;
+    width: 100%;
+    height: 700px;
+ } 
+ /* acceuil2 CSS  autre que acceuil utilisé */
+ .video{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    margin-top: 500px;
+ }
+ .titre h1{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: var(--size-xxl);
+    width: 100%;
+    max-width: 512px;
+    margin-top: -900px;
+    margin-left: 150px;
+    color: white;
+ }
+ .titre h2{
+    margin-top:90px;
+    margin-left: 150px;
+    color: white;
+    justify-content: flex-start;
+    width: 70%;
+    max-width: 100%;
+    text-align: left;
+ }
+/* carousel CSS */
+.carousel{
+    margin-top: 120px;
+    width: 650px;
+    margin-left:10px ;
+    height: 550px;
+    box-shadow: 30px 30px 40px lightblue;
+   
+}
+ .carousel img{
+    max-width:650px ;
+    min-width: 650px;
+    max-height:550px ;
+    min-height: 550px;
+}
+
+
+ /*CSS image background_list*/
+ .img_movielist img
+ { opacity: 0.9;
+  position: relative;
+  width: 100%;
+  height: 3000px;
+margin-top: -285px;}
+/* CSS titre : liste movie*/
+.titrelist h1{
+  font-size:50px;
+  font-family: 'Exo', sans-serif;
+  margin-top: -150px;
+  position: absolute;
+  color: black;
+  margin-left: 500px;
+  letter-spacing: -0.02em;
+   font-family: "plex-circular-black";
+   font-size: 4.5em;
+   font-style: normal;
+   line-height: 1.1em;
+   font-weight: 900;
+   box-shadow: 20px 20px 10px grey;
+}
+
+
+/*bouton add movie*/
+ .btn_add{
+ display: flex;
+ justify-content: center;
+position: absolute;
+margin-top: -40px;
+margin-left: 600px;
+
+ }
+/*carte CSS*/
+.list{
+  margin-top: -2800px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+ flex-wrap: wrap;
+}
+ /*
+ transition:.6s;
+  transform: rotatex(75deg) translatey(-200px) translatez(-100px);
+  box-shadow: 0px 20px 60px rgba(0,0,0, 0.5);
+  position: absolute;
+*/
+
+ 
+/*
+.list:hover{
+  transform: rotatex(0deg);
+  transform: rotatez(0deg);
+  transition:.6s;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+}*/
+
+.img_card{
+  max-width:285px ;
+  min-width:285px;
+  max-height: 250px;
+  min-height:250px ;
+}
+.desc_card{
+  max-width:250px ;
+  min-width:250px;
+  max-height: 250px;
+  min-height:250px ;
+}
+  
+
+
+
